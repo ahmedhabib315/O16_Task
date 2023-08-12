@@ -21,7 +21,7 @@ export class PostController {
 
   /**
    *
-   * This method is called to create the post with admin access
+   * This method is called to create the post only with admin access
    *
    * @param user
    * @param data
@@ -37,7 +37,7 @@ export class PostController {
 
   /**
    *
-   * This method is called to delete the post with admin access
+   * This method is called to delete the post only with admin access
    *
    * @param access
    * @param data
@@ -53,7 +53,7 @@ export class PostController {
 
   /**
    *
-   * This method is called to update the post with admin access
+   * This method is called to update the post only with admin access
    *
    * @param access
    * @param data
@@ -69,7 +69,8 @@ export class PostController {
 
   /**
    *
-   * This method is called to update the post if User is logged in
+   * This method is called to Get All the Post only if user is logged in
+   * of any role
    *
    * @param user
    * @returns

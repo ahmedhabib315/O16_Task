@@ -1,0 +1,10 @@
+{
+  "type": "posgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "admin",
+  "password": "admin",
+  "database": "test_interview",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "synchronize": true
+}

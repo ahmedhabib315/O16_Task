@@ -17,6 +17,7 @@ export class PostCreate {
 }
 
 export class PostUpdate {
+  @ApiProperty({ default: 2 })
   @IsNumber()
   id: number;
 
@@ -37,6 +38,7 @@ export class PostUpdate {
 }
 
 export class PostDelete {
+  @ApiProperty({ default: 1 })
   @IsNumber()
   id: number;
 }

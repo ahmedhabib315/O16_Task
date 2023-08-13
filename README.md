@@ -22,6 +22,18 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
+
+## Step by step commands to start this project
+1. npm install
+2. docker-compose up (in a seperate terminal window to keep it running throughout the project)
+3. npx prisma generate
+4. npx prisma db push
+5. npm run start/npm run start:dev (to start the project)
+
+# Swagger Url
+http://localhost:3000/api-docs
+
+
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
@@ -41,6 +53,8 @@ $ docker-compose up
 ## Sync Prisma Schema to Prepare Database
 
 ```bash
+$ npx prisma generate
+
 $ npx prisma db push
 ```
 
